@@ -11,7 +11,7 @@ function Navbar() {
   }
   return (
     <>
-      <nav className="flex justify-between lg:justify-evenly md:justify-evenly  items-center p-5 bg-FloralWhite ">
+      <nav className="flex justify-between lg:justify-evenly md:justify-evenly  items-center p-5 bg-FloralWhite relative z-40 ">
         <div className="w-[130px]">
           <img src={Logo} className="cursor-pointer"/>
         </div>
@@ -42,8 +42,8 @@ function Navbar() {
         </div>
       </nav>
       <section
-        className={`bg-FloralWhite flex justify-center transition duration-300  ${
-          isOpen ? "flex" : "hidden"
+        className={`bg-FloralWhite flex w-full justify-center transition duration-300 absolute z-30 ${
+          isOpen ? "translate-y-0" : "-translate-y-[150%]"
         }`}
       >
         <div className="p-7">

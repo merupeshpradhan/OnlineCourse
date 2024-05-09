@@ -8,10 +8,9 @@ import LandingHeading from "../../images/Landing-Heading.png";
 function Landing() {
   return (
     <>
-      <div className="bg-FloralWhite  lg:flex md:flex justify-center lg:p-5 md:p-5 p-6">
+      <div className=" lg:flex relative lg:h-full md:flex justify-center lg:p-40 md:p-5 p-6 bg-contain" style={{ backgroundImage: `url(${landingicons})`,backgroundRepeat:"no-repeat" }}>
         <div
-          style={{ backgroundImage: `url(${landingicons})` }}
-          className="h-full flex items-center lg:bg-cover md:bg-cover lg:p-[85px] md:p-[66px]"
+          className="w-full h-full flex items-center  md:bg-cover lg:p-[5px] md:p-[66px]"
         >
           <div className="flex flex-col lg:gap-8 md:gap-3 gap-3">
             <img src={LandingHeading} className="md:w-[70%] lg:w-full w-[70%]"/>
