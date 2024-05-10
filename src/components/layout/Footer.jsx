@@ -8,7 +8,7 @@ function Footer() {
       <footer className="min-h-[50vh] bg-FloralWhite w-full relative z-30">
         <div className="flex w-full md:justify-between lg:flex-row md:flex-row flex-col lg:gap-[10%] gap-5 lg:items-start md:items-start items-center lg:justify-center lg:p-[60px] md:p-[30px]">
           <div className="flex flex-col lg:w-[20%] md:w-[20%]  items-center justify-center">
-            <img src={logo} className="w-24 mt-4" />
+            <img src={logo} className="w-24 mt-4 lg:mt-0 md:mt-0" />
             <p className="text-xs text-center lg:text-start md:text-start p-3">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy a
