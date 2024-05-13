@@ -23,12 +23,12 @@ function Section3() {
             <div className="-translate-y-[30%] rotate-180">
               <img src={Ellipse} className=" " />
             </div>
-            <div className="translate-y-[30%] -translate-x-[25vw]">
+            <div className="translate-y-[30%] -translate-x-[25vw] hidden lg:block md:block">
               <img src={Group2} />
             </div>
           </div>
           <div className="flex">
-            <div className="translate-y-[35%] translate-x-[25vw]">
+            <div className="translate-y-[35%] translate-x-[25vw] hidden lg:block md:block">
               <img src={orangeplanet} className="" />
             </div>
             <div className="translate-y-[7%]">
