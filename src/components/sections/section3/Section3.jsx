@@ -1,11 +1,11 @@
 import React from "react";
-import Carousel from "../section3/Carousel";
 import Ellipse from "../../images/Ellipse.png";
 import Group2 from "../../images/Group2.png";
 import orangeplanet from "../../images/orangeplanet.png";
 
 import Cards from "./Cards";
 import SubBaner from "./SubBaner";
+import Carousels from "./Carousels";
 
 function Section3() {
   return (
@@ -17,7 +17,7 @@ function Section3() {
             Lorem Ipsum is simply dummy text of the printing.
           </p>
         </div>
-        <Carousel />
+        <Carousels/>
         <div className="absolute -z-10 flex justify-between w-full">
           <div className="flex">
             <div className="-translate-y-[30%] rotate-180">
